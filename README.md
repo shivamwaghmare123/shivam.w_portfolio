@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This website showcases my technical skills, pr
 
 ## 🌐 Live Portfolio
 
-🔗 **Portfolio Website:** `https://shivamwaghmare123.github.io/portfolio/`
+🔗 **Portfolio Website:** `https://github.com/shivamwaghmare123/shivam.w_portfolio`
 
 ## 👋 About Me
 
