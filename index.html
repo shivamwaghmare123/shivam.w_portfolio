@@ -351,14 +351,29 @@
           </div>
 
           <div class="contact-form-wrap">
-            <form id="contact-form">
+            <form
+              id="contact-form"
+              action="https://api.web3forms.com/submit"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="ef1510f1-00d8-4072-aff5-0cfa152e12e7"
+              />
+
+              <input
+                type="hidden"
+                name="subject"
+                value="Portfolio enquiry from Shivam Waghmare"
+              />
+
               <div class="form-group">
                 <label for="name">YOUR NAME</label>
                 <input
                   id="name"
                   name="name"
                   type="text"
-                  autocomplete="name"
                   placeholder="Enter your name"
                   required
                 />
@@ -370,7 +385,6 @@
                   id="email"
                   name="email"
                   type="email"
-                  autocomplete="email"
                   placeholder="you@example.com"
                   required
                 />
@@ -382,18 +396,16 @@
                   id="message"
                   name="message"
                   rows="5"
-                  placeholder="Tell me a little about your idea..."
+                  placeholder="Write your message..."
                   required
                 ></textarea>
               </div>
 
               <button class="btn btn-primary" type="submit">
-                Prepare email ↗
+                Send Message ↗
               </button>
-
-              <p class="form-note">
-                Your email app will open with a prepared message. The form does
-                not send data to a server.
+              <p class="form-note" id="form-status" role="status">
+                Send me a message directly through this form.
               </p>
             </form>
           </div>
